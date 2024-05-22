@@ -1,0 +1,157 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1E1E1E;
+  background-color:#637B7F
+}
+
+a {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header Styles */
+header {
+  background-color: #E5B35A;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Main Styles */
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.product-image {
+  flex: 1 1 30%;
+  max-width: 30%;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  flex: 1 1 70%;
+  max-width: 70%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-info h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+
+
+</style>   
+</head> 
+
+
+<head>
+  <title>Product Description - My Retail Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product">
+      <div class="product-image">
+        <img src="product1.jpg" alt="Product 1">
+      </div>
+      <div class="product-info">
+        <h1>Product 1</h1>
+        <p class="price">$19.99</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum aliquet lacus, in pellentesque risus varius sed. Aenean at orci vitae ipsum rhoncus blandit. Duis fermentum augue sed enim interdum imperdiet. Fusce auctor enim quis augue gravida malesuada.</p>
+        <form>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+          <button type="submit" class="btn btn-primary">Add to Cart</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="ratings-reviews">
+      <h2>Ratings and Reviews</h2>
+      <div class="reviews">
+        <div class="review">
+          <h3>User 1</h3>
+          <p class="rating">4.5/5</p>
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo neque et porttitor pellentesque.</p>
+        </div>
+        <div class="review">
+          <h3>User 2</h3>
+          <p class="rating">3.5/5</p>
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo neque et porttitor pellentesque.</p>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary">Write a Review</a>
+    </section>
+  </main>
+
+
+
+</html>  
+
